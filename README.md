@@ -23,8 +23,6 @@ Two LangChain agents for customer feedback:
    - Create a `.env` file in project root with :
      ```
      OPENAI_API_KEY=sk-...your-key...
-     # Optional: If using Ollama locally
-     # OLLAMA_MODEL=llama3.1
      ```
 
 Without an LLM configured, the app will fall back to a rule-based sentiment model (VADER) and templated replies for demo purposes. The primary path uses LangChain with an LLM.
